@@ -78,7 +78,7 @@ namespace Shop.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
             }
         }
-
+        ///
         // DELETE api/Category/5
         public HttpResponseMessage DeleteCategory(int id)
         {
